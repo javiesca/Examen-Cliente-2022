@@ -10,9 +10,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 /*Estilos al header*/
-
 header{
     background-color: var(--color-principal);
     display: flex;
@@ -84,6 +82,7 @@ span::first-letter, h2::first-letter{
 }
 
 
+
 /*Contenedor donde iran los 2 botones*/
 .botones{
     display: flex;
@@ -98,6 +97,8 @@ button{
     background-color: var(--color-secundario);
     color: white;
     border: none;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 /*flex-colum para el contenedor que contiene los div de grupo A y grupo B*/

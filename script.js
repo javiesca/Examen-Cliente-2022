@@ -114,7 +114,6 @@ window.onload = function(){
 
 
     //Funciones que agregan producto a A o a B. Reciben como parametros el producto (SOLO EL QUE ESTAMOS ASIGNANDO), y los 2 botones.
-
     function agregaA(producto,botonA, botonB){
         //Creamos un div donde ira la imagen y el titulo del plato.
         let div = document.createElement("div");
