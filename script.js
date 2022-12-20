@@ -105,11 +105,10 @@ window.onload = function(){
 
 
         //addEventListener de el boton A. Pasamos como parametros el producto y los 2 botones.
-        botonA.addEventListener("click", () => agregaA(producto, botonA, botonB));
+        botonA.addEventListener("click", () => agregaA(botonA, producto, botonB));
 
         //addEventListener de el boton B. Pasamos como parametros el producto y los 2 botones.
         botonB.addEventListener("click", () => agregaB(producto, botonB, botonA));
-
     }
 
 
